@@ -1,0 +1,11 @@
+<p>Source: <a href="http://openweathermap.org/">openweathermap</a></p>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Weather forecast for {{ngCity}}</h3>
+  </div>
+  <div class="panel-body">
+    <ul class="list-group">
+      <div class="daily-item" ng-repeat="daily in weathers" ng-daily-item item-detail="{{daily}}"></div>
+    </ul>
+  </div>
+</div>

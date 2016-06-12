@@ -1,0 +1,16 @@
+<li class="list-group-item">
+  <div class="media">
+    <div class="media-left">
+    <img src="http://openweathermap.org/img/w/{{weather.icon}}.png" alt="">
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">{{date}}</h4>
+      <p>
+        <span style="display: inline-block;" class="badge">{{daily.temp.day}}°C</span>
+      </p>
+      <p><span>Min: {{daily.temp.min}}°C</span>
+        <span>Max: {{daily.temp.max}}°C</span></p>
+      <p><span>{{weather.description}}</span></p>
+    </div>
+  </div>
+</li>
