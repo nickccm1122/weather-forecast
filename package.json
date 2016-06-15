@@ -2,6 +2,9 @@
   "name": "customdirectiveexample",
   "private": true,
   "main": "web.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
     "grunt": "^0.4.5",
