@@ -13,7 +13,7 @@ angular
     'ngRoute',
     'angular-loading-bar'
   ])
-  .constant("openWeatherApiKey", /* <Your Open Weather API KEY goes Here> */)
+  .constant("openWeatherApiKey", 'd51755a4b172bab2f622241ab17febba')
   .config(['$routeProvider' ,'cfpLoadingBarProvider', function ($routeProvider,cfpLoadingBarProvider) {
     cfpLoadingBarProvider.includeSpinner = false;
     $routeProvider
